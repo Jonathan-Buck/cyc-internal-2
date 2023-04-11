@@ -1,0 +1,41 @@
+Applicant_Name,Semester,Interviewers,Each_Matrix_Num,GPA,Round_Decision,Round_Decision_Quantified,Notes,Major,Minor,Ethnicity,Ethnicity_Quantified,Gender,Gender_Quantified,Recommend1,Recommend2,Recommend1_Quantified,Recommend2_Quantified,Grad_Year
+Lital Stroebel,Spring 2021,"['Pippin Payne', 'Jopsy Bayog']","['73', '79']",4.0,Interview,,,Business Administration,,,,,,Recommend,Recommend,2.0,2.0,May 2022
+Tafui Leggard,Spring 2021,"['Jopsy Bayog.1', 'Karis Dean']","['94', '100']",4.0,Interview,,,Industrial Engineering,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2022
+Alice Magnani,Spring 2021,"['Pippin', 'Namrata']","['79', '79']",3.98,Interview,,,Business Administration ,,,,,,Recommend,Recommend,2.0,2.0,May 2022
+Isra Siddiqui,Spring 2021,"['Pippin.1', 'Namrata ']","['64', '73']",3.57,Reject,0.0,,Psychology,,,,,,Recommend With Hesitation,Recommend With Hesitation,,,May 2022
+Iustina Banerji,Spring 2021,"['Jopsy Bayog.2', 'Pippin.2']","['91', '100']",3.93,Interview,,,Chemical Engineering and Economics,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2023
+Zane Shockley,Spring 2021,"['Jopsy Bayog.3', 'Natalie Yeung']","['67', '88']",3.99,Reject & Reapply,,,"Industrial & Systems Engineering, German Studies Sci Tech Conc (pending approval)",,,,,,Recommend With Hesitation,Recommend,,2.0,May 2024
+Ravi Aechan,Spring 2021,"['Spencer Matthews', 'Jopsy Bayog.4']","['88', '61']",,,,,,,,,,,,,,,
+Sumi Vijayakumar,Spring 2021,"['Spencer Matthews.1', 'Avital Politi']","['73', '70']",,,,,,,,,,,,,,,
+Wes Williams,Spring 2021,"['Avital Politi.1', 'Becca Chem']","['82', '79']",,,,,,,,,,,,,,,
+Colin Dwyer,Spring 2021,"['Avital Politi.2', 'Steven Diniz']","['88', '100']",3.54,Interview,,,Engineering First Year- Computer Science Intent,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2024
+Becca Ross,Spring 2021,"['Pippin.3', 'Zachary']","['52', '91']",,,,,,,,,,,,,,,
+Thida Lee,Spring 2021,"['Pippin.4', 'Bill Lamm']","['88', '88']",3.65,Interview,,,Biochemistry,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2022
+Lillie Williams,Spring 2021,"['Pippin.5', 'Zachary.1']","['91', '91']",,,,,,,,,,,,,,,
+Sarah Ann Tabor,Spring 2021,"['Pippin.6', 'Bill Lamm.1']","['73', '64']",,,,,,,,,,,,,,,
+Zuhare Ali,Spring 2021,"['Bradley', 'Bill Lamm.2']","['73', '70']",3.3,Reject & Reapply,,,Computer Science & Economics,,,,,,Recommend,Recommend With Hesitation,2.0,,May 2024
+Connor Bain,Spring 2021,"['Avital Politi.3', 'Namrata .1']","['64', '73']",4.0,Reject,0.0,,"Statistics, Economics (B.S.)",,,,,,Recommend With Hesitation,Recommend,,2.0,May 2022
+Rucheer Dave,Spring 2021,"['Jopsy', 'Pippin.7']","['88', '73']",3.93,Interview,,,Economics,,,,,,Recommend,Recommend,2.0,2.0,May 2024
+Rakesh Chinta,Spring 2021,"['Jopsy.1', 'Pranali ']","['61', '82']",3.31,Reject,0.0,,Industrial and Systems Engineering,,,,,,Do Not Recommend,Recommend,0.0,2.0,December 2022
+Lillie Salvador,Spring 2021,"['Avital Politi ', 'Rithika Shivkumar']","['97', '94']",,,,,,,,,,,,,,,
+Lulu Holz,Spring 2021,"['Kathryn Sharpe', 'Karis Dean.1']","['85', '91']",,,,,,,,,,,,,,,
+May Gao,Spring 2021,"['Kathryn ', 'Anabel Russo']","['45', '58']",,,,,,,,,,,,,,,
+Anagha Jandhyala,Spring 2021,"['Pippin.8', 'Alex Dixon']","['94', '79']",4.0,Interview,,,Computer Science,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2024
+Grace Aguilar,Spring 2021,"['Kathryn Sharpe.1', 'Spencer Matthews.2']","['58', '97']",3.5,Reject & Reapply,,,Microbial Research,,,,,,Recommend With Hesitation,Strongly Recommend,,3.0,May 2023
+Ming Gao,Spring 2021,"['Alex Dixon.1', 'Becca']","['97', '94']",4.0,Interview,,,Materials Science and Engineering,,,,,,Recommend,Recommend,2.0,2.0,December 2021
+Sam Fitts,Spring 2021,"['Hilton', 'Avital Politi.4']","['89', '55']",,,,,,,,,,,,,,,
+Grayson Jones,Spring 2021,"['Alex Dixon.2', 'Pranav Chockalingam']","['67', '82']",4.0,Interview,,,Management First Year,,,,,,Recommend,Recommend,2.0,2.0,May 2024
+Alex Blanton,Spring 2021,"['Alex Dixon.3', 'Pranav Chockalingam.1']","['61', '73']",3.3,Reject,0.0,,Business Administration,,,,,,Recommend With Hesitation,Recommend With Hesitation,,,May 2022
+Beckett Stillman,Spring 2021,"['Isaac', 'Zachary.2']","['82', '91']",4.0,Interview,,,Chemical Engineering (adding Economics double major),,,,,,Recommend,Recommend,2.0,2.0,May 2023
+Julie Talbot,Spring 2021,"['Isaac.1', 'Zachary.3']","['85', '88']",3.36,Interview,,,Industrial and Systems Engineering,,,,,,Recommend,Recommend,2.0,2.0,May 2022
+Sheridan Kum,Spring 2021,"['Kathryn', 'Becca.1']","['76', '82']",3.75,Interview,,,Business Administration,,,,,,Recommend,Recommend,2.0,2.0,May 2023
+Ashlyn Chapman,Spring 2021,"['Avital Politi.5', 'Kathryn.1']","['82', '67']",3.87,Interview,,,Computer Science,,,,,,Strongly Recommend,Recommend With Hesitation,3.0,,December 2022
+Pari Goyal,Spring 2021,"['Keya Pothireddy', 'Nupur Jain']","['91', '88']",3.875,Interview,,,Computer Engineering ,,,,,,Recommend,Recommend,2.0,2.0,May 2023
+Annika Pillutla,Spring 2021,"['Nupur Jain.1', 'Kathryn Sharpe.2']","['0', '0']",,,,,,,,,,,,,,,
+Hrishi Batta,Spring 2021,"['Keya Pothireddy.1', 'Angelina Marreddy']","['94', '82']",3.939,Interview,,,Computer Science,,,,,,Recommend,Recommend,2.0,2.0,May 2023
+Harshita Gupta,Spring 2021,"['Keya Pothireddy.2', 'Angelina Marreddy.1']","['100', '100']",0.0,Interview,,,Computer Science,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2024
+Dhivya Lakshminarayan,Spring 2021,"['Keya Pothireddy.3', 'Mary Louise Sprague ']","['85', '91']",,,,,,,,,,,,,,,
+Natalie Gorelik,Spring 2021,"['Keya Pothireddy.4', 'Mary Louise Sprague .1']","['88', '73']",3.87,Interview,,,Business administration & Economics,,,,,,Recommend,Recommend With Hesitation,2.0,,May 2023
+Mikayla Ardus,Spring 2021,"['Isaac.2', 'Bradley.1']","['94', '97']",3.394,Interview,,,Business Administration ,,,,,,Strongly Recommend,Strongly Recommend,3.0,3.0,May 2024
+Mustafa Syed,Spring 2021,"['Unnamed: 79', 'Unnamed: 80']","[nan, nan]",,,,,,,,,,,,,,,
+Sonia Dubiansky,Spring 2021,"['Unnamed: 81', 'Unnamed: 82']","[nan, nan]",3.606,Reject,0.0,Declined interview,Business Administration w/ Concentration in Human Resource Management & Environmental Science,,,,,,--,--,,,May 2023
