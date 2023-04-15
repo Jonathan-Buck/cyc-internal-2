@@ -10,9 +10,19 @@ st.title("CYC Internal Analytics Dashboard")
 
 df = pd.read_csv("finals.csv")
 
-print(df)
 
-st.header("Testing Datasets")
-st.subheader("Dataframes")
-st.write("We can display a dataframe that can be manipulated and viewed in the dashboard:")
+st.header("Threshold Insights")
+
+
+st.header("Discrepancy Analysis")
+
+
+st.header("Impact of GPA")
+
+
+st.header("Demographics")
+
+
+st.header("Appendix")
+st.subheader("Historical Aggregate Data")
 st.write(df)
