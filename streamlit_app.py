@@ -41,7 +41,7 @@ for entries in range(0, len(df)):
         hispanic += 1
 
 
-pie = px.pie(values=[unknown, white, black, asian, hispanic], names=['Unknown','White', 'Black', 'Asian', 'Hispanic'], title='Demographic Breakdown of Applicants')
+pie = px.pie(values=[unknown, white, black, asian, hispanic], names=['Unknown','White', 'Black', 'Asian', 'Hispanic'], title='Historical Demographic Breakdown of Applicants')
 st.plotly_chart(pie)
 
 st.header("Appendix")
