@@ -158,7 +158,7 @@ def load_data(sheets_url, gid):
     csv_url += gid
     return pd.read_csv(csv_url)
 
-for i in range(st.secrets("public_gsheets_url")):
+for i in range(len(st.secrets("public_gsheets_url"))):
     matrix_name = load_data(st.secrets("public_gsheets_url")[i], st.secrets("matrix_gid")[i])
     decisions_name = load_data(st.secrets("public_gsheets_url")[i], st.secrets("decisions_gid")[i])
     semester = st.secrets("semester")[i]
