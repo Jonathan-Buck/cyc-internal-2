@@ -142,20 +142,20 @@ def streamlit_combine(matrix_name, decisions_name, semester):
 
 
 
-final_df = pd.DataFrame(columns=['Applicant_Name', 'Semester', 'Interviewers', 'Each_Matrix_Num', "GPA", "Round_Decision", "Round_Decision_Quantified", "Notes", "Major", "Minor", "Ethnicity", "Ethnicity_Quantified", "Gender", "Gender_Quantified", "Recommend1", "Recommend2", "Recommend1_Quantified", "Recommend2_Quantified", "Grad_Year"])
+# final_df = pd.DataFrame(columns=['Applicant_Name', 'Semester', 'Interviewers', 'Each_Matrix_Num', "GPA", "Round_Decision", "Round_Decision_Quantified", "Notes", "Major", "Minor", "Ethnicity", "Ethnicity_Quantified", "Gender", "Gender_Quantified", "Recommend1", "Recommend2", "Recommend1_Quantified", "Recommend2_Quantified", "Grad_Year"])
 
-st.secrets
-for items in list_matrix:
-    matrix_stored = items[0]
-    decisions_stored = items[1]
-    semester = items[1]
+# st.secrets
+# for items in list_matrix:
+#     matrix_stored = items[0]
+#     decisions_stored = items[1]
+#     semester = items[1]
 
-    read_matrix_csv = pd.read_csv(matrix_stored, sep=',',header=0)
+#     read_matrix_csv = pd.read_csv(matrix_stored, sep=',',header=0)
 
-    read_decisions_csv = pd.read_csv(decisions_stored, sep=',',header=0)
+#     read_decisions_csv = pd.read_csv(decisions_stored, sep=',',header=0)
 
-    adding_df = streamlit_combine(read_matrix_csv, read_decisions_csv, semester)
+#     adding_df = streamlit_combine(read_matrix_csv, read_decisions_csv, semester)
 
 
-    storing_df = pd.concat([final_df, adding_df])
+#     storing_df = pd.concat([final_df, adding_df])
 
