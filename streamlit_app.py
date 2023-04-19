@@ -8,9 +8,31 @@ import plotly.express as px
 import re
 import seaborn as sns
 import matplotlib.pyplot as plt
+from combine import streamlit_combine
 
 df = pd.read_csv("trial1.csv")
 df_ag = pd.read_csv("finals.csv")
+
+final_df = pd.DataFrame(columns=['Applicant_Name', 'Semester', 'Interviewers', 'Each_Matrix_Num', "GPA", "Round_Decision", "Round_Decision_Quantified", "Notes", "Major", "Minor", "Ethnicity", "Ethnicity_Quantified", "Gender", "Gender_Quantified", "Recommend1", "Recommend2", "Recommend1_Quantified", "Recommend2_Quantified", "Grad_Year"])
+
+# bringing in new data from secrets
+
+@st.cache_data(ttl=600)
+def load_data(sheets_url, gid):
+    updated_link = re.sub(r'=.*', '', sheets_url)
+    csv_url = updated_link.replace("/edit#gid=", "/export?format=csv&gid=")
+    csv_url += gid
+    return pd.read_csv(csv_url)
+
+for i in range(st.secrets("public_gsheets_url")):
+    matrix_name = load_data(st.secrets("public_gsheets_url")[i], st.secrets("matrix_gid")[i])
+    decisions_name = load_data(st.secrets("public_gsheets_url")[i], st.secrets("decisions_gid")[i])
+    semester = st.secrets("semester")[i]
+
+    adding_df = streamlit_combine(matrix_name, decisions_name, semester)
+    storing_df = pd.concat([final_df, adding_df])
+
+st.write(final_df)
 
 #DATA CLEANING
 #In Aggregate, W vs. w in recommend with hesitationc:\Users\srsch\Downloads\Dashboard.ipynb
@@ -215,4 +237,4 @@ st.plotly_chart(pie)
 
 st.header("Appendix")
 st.subheader("Historical Aggregate Data")
-st.write(df)
+st.write(df_ag)
