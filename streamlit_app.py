@@ -159,7 +159,7 @@ def streamlit_combine(matrix_name, decisions_name, semester):
 def load_data(sheets_url, gid):
     updated_link = re.sub(r'=.*', '', sheets_url)
     csv_url = updated_link.replace("/edit#gid=", "/export?format=csv&gid=")
-    csv_url += str(gid)
+    #csv_url += str(gid)
     return pd.read_csv(csv_url)
 
 for i in range(len(st.secrets["public_gsheets_url"])):
